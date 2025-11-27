@@ -1,0 +1,7 @@
+empid <- c(101, 102, 103, 104)
+name <- c("Amit", "Riya", "Raju", "Atul")
+age <- c(35, 45, 32, 49)
+experience <- c(6, 10, 4, 7)
+df <- data.frame(empid, name, age, experience)
+subset(df, experience > 5 & age < 40)
+print(df)

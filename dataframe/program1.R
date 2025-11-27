@@ -1,0 +1,6 @@
+name <- c("sam", "Riya", "sneha", "Neha")
+age <- c(20, 21, 19, 22)
+gender <- c("M", "F", "M", "F")
+marks <- c(85, 90, 78, 88)
+df <- data.frame(name, age, gender, marks)
+print(df)
